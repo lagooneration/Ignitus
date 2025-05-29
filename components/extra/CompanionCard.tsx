@@ -1,6 +1,6 @@
 "use client";
-// import { removeBookmark } from "@/lib/actions/companion.actions";
-// import { addBookmark } from "@/lib/actions/companion.actions";
+import { removeBookmark } from "@/lib/actions/companion.actions";
+import { addBookmark } from "@/lib/actions/companion.actions";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -24,19 +24,18 @@ const CompanionCard = ({
   color,
   bookmarked,
 }: CompanionCardProps) => {
-//   const pathname = usePathname();
-//   const handleBookmark = async () => {
-//     if (bookmarked) {
-//       await removeBookmark(id, pathname);
-//     } else {
-//       await addBookmark(id, pathname);
-//     }
-//   };
+  const pathname = usePathname();
+  const handleBookmark = async () => {
+    if (bookmarked) {
+      await removeBookmark(id, pathname);
+    } else {
+      await addBookmark(id, pathname);
+    }
+  };
 
-    const handleBookmark = () => {
-        // Placeholder for bookmark functionality
-        console.log(`Bookmark toggled for companion ID: ${id}`);
-    };
+  if (!id || !name || !topic || !subject || !duration || !color) {
+    return null; // Return null if any required prop is missing
+  }
   return (
     <article className="companion-card" style={{ backgroundColor: color }}>
       <div className="flex justify-between items-center">
