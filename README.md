@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ignitus - Research and Innovation Incubator
+
+Ignitus is a platform dedicated to empowering youth to become industry leaders by providing opportunities to solve social and inclusive problems through research and innovation.
+
+## About
+
+Ignitus aims to bridge the gap between academic learning and real-world impact. We provide a collaborative environment where young minds can:
+
+* **Engage in meaningful research:** Work on projects that address pressing social and inclusive challenges.
+* **Develop innovative solutions:** Apply their skills and creativity to build practical and impactful solutions.
+* **Gain industry experience:** Collaborate with mentors and professionals to learn best practices and gain valuable insights.
+* **Become future leaders:** Develop the skills and mindset necessary to lead change and make a difference.
+
+## Features
+
+* **Project Marketplace:** Discover and join research and innovation projects aligned with your interests and skills.
+* **Mentorship Program:** Connect with experienced professionals and academics for guidance and support.
+* **Collaboration Tools:** Utilize integrated tools for seamless teamwork and communication.
+* **Resource Library:** Access a curated collection of resources, tutorials, and articles to enhance your learning.
+* **Community Forum:** Engage with a vibrant community of like-minded individuals, share ideas, and seek help.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Ignitus, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Sign up:** Create an account on the Ignitus platform.
+2. **Explore projects:** Browse the project marketplace and find projects that interest you.
+3. **Join a project:** Apply to join a project and start collaborating with a team.
+4. **Engage with the community:** Participate in discussions, share your progress, and learn from others.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions from the community! If you're interested in contributing to Ignitus, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Support
 
-## Learn More
+If you have any questions or need assistance, please reach out to our support team at [support@ignitus.org](mailto:support@ignitus.org).
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
