@@ -32,6 +32,12 @@ To get started with Ignitus, follow these steps:
 
 We welcome contributions from the community! If you're interested in contributing to Ignitus, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
 
+
+## Acknowledgements
+
+This project was inspired by and adapted from the SaaS application template created by [Adrian Hajdin](https://github.com/adrianhajdin/saas-app). We extend our sincere gratitude for his valuable work and contribution to the open-source community.
+
+
 ## Support
 
 If you have any questions or need assistance, please reach out to our support team at [support@ignitus.org](mailto:support@ignitus.org).

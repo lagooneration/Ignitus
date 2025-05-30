@@ -8,7 +8,7 @@ import Startup from "@/components/landing/Startup";
 const Page = () => {
   return (
     <main>
-      <div className="absolute inset-0 top-20 bg-gray-100 bg-opacity-100 dark:bg-opacity-70"></div>
+      <div className="absolute inset-0 top-20 bg-gray-100 bg-opacity-100 dark:bg-opacity-70 h-[80%]"></div>
       <Hero />
       <Demo />
       <Courses />
