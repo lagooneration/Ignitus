@@ -8,17 +8,20 @@ const courses = [
     {
       title: "Social Entrepreneurship",
       description: "Learn how to create sustainable businesses that address social problems and drive positive change in communities.",
-      path: "/companions?subject=social-entrepreneurship"
+      path: "/companions?subject=social-entrepreneurship",
+      image: "/images/c3.png"
     },
     {
       title: "Inclusive Innovation",
       description: "Discover techniques for creating products and services that are accessible to all, regardless of background or ability.",
-      path: "/companions?subject=inclusive-innovation"
+      path: "/companions?subject=inclusive-innovation",
+      image: "/images/c1.png"
     },
     {
       title: "Research & Development",
       description: "Master the process of developing new products through systematic research and experimentation.",
-      path: "/companions?subject=research-development"
+      path: "/companions?subject=research-development",
+      image: "/images/c2.png"
     }
 ];
 
@@ -36,9 +39,7 @@ const Courses = () => {
           Dive into specialized courses designed to help you make a <br /> positive impact on society
           through innovation.
         </p>
-      </motion.div>
-
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      </motion.div>      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {courses.map((course, index) => (
           <CourseCard
             key={index}
@@ -46,6 +47,7 @@ const Courses = () => {
             title={course.title}
             description={course.description}
             path={course.path}
+            image={course.image}
           />
         ))}
       </div>

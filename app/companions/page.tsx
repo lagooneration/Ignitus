@@ -21,7 +21,7 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
     const recentSessionsCompanions = await getRecentSessions(10);
 
     return (
-        <main>
+        <main className="p-4">
             <section className="flex justify-between gap-4 max-sm:flex-col">
                 <h1>Companion Library</h1>
                 <div className="flex gap-4">
@@ -30,8 +30,8 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
                 </div>
             </section>
             
-            <h1>Popular Companions</h1>
-            <section className="home-section">
+            {/* <h1>Popular Companions</h1> */}
+            {/* <section className="home-section">
                 {popularCompanions.map((companion) => (
                     <CompanionCard
                         key={companion.id}
@@ -39,9 +39,9 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
                         color={getSubjectColor(companion.subject)}
                     />
                 ))}
-            </section>
+            </section> */}
             
-            {/* <section className="companions-grid">
+            <section className="companions-grid">
                 {companions.map((companion) => (
                     <CompanionCard
                         key={companion.id}
@@ -49,7 +49,7 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
                         color={getSubjectColor(companion.subject)}
                     />
                 ))}
-            </section> */}
+            </section>
             
             <section className="home-section">
                 <CompanionsList

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 interface CourseCardProps {
@@ -10,13 +11,15 @@ interface CourseCardProps {
   description: string;
   path: string;
   index: number;
+  image: string;
 }
 
 const CourseCard: React.FC<CourseCardProps> = ({ 
   title, 
   description, 
   path, 
-  index 
+  index,
+  image
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   
@@ -41,6 +44,14 @@ const CourseCard: React.FC<CourseCardProps> = ({
       onHoverEnd={() => setIsHovered(false)}
     >
       <div className="bg-white dark:bg-gray-900 p-6 rounded-lg h-full flex flex-col">
+        <div className="mb-4 relative h-40 w-full overflow-hidden rounded-lg">
+          <Image 
+            src={image} 
+            alt={title}
+            fill
+            className="object-cover"
+          />
+        </div>
         <h3 className="text-2xl font-bold mb-3">{title}</h3>
         <p className="text-gray-600 dark:text-gray-300 mb-6 flex-grow">{description}</p>
         
