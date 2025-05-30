@@ -7,7 +7,7 @@ import Ctatwo from '../extra/CTATWO';
 
 const Hero = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-pink-50 to-purple-50 dark:from-gray-900 dark:to-gray-800">
+    <section className="py-20 px-4 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row gap-12 items-center mb-20">
           <div className="md:w-1/2 text-left">

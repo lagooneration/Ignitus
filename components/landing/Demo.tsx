@@ -5,6 +5,7 @@ import { cn, getSubjectColor } from "@/lib/utils";
 import Image from "next/image";
 import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import soundwaves from '@/constants/soundwaves.json';
+import Ctathree from '../extra/CTATHREE';
 
 enum CallStatus {
     INACTIVE = 'INACTIVE',
@@ -106,8 +107,11 @@ const Demo = () => {
     };
     
     return (
-        <section className="flex flex-col bg-white p-6 rounded-xl shadow-md">
-            <h2 className="text-2xl font-bold mb-6 text-center">Interactive Learning with AI Companions</h2>
+        <section className="flex flex-col bg-white p-6 rounded-xl shadow-md">            <h2 className="text-2xl font-bold mb-6 text-center">Interactive Learning with AI Companions</h2>
+
+            <section className='flex items-center justify-center mb-6 w-full'>
+                <Ctathree />
+            </section>
             
             <section className="flex gap-8 max-sm:flex-col">
                 <div className="companion-section">

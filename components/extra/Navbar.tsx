@@ -14,6 +14,7 @@ const Navbar = () => {
                         width={46}
                         height={44}
                     />
+                    Ignitus
                 </div>
             </Link>
             <div className="flex items-center gap-8">
