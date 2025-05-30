@@ -1,39 +1,20 @@
-import CompanionCard from "@/components/extra/CompanionCard";
-import CompanionsList from "@/components/extra/CompanionsList";
-import CTA from "@/components/extra/CTA";
-import {recentSessions} from "@/constants";
-import {getAllCompanions, getRecentSessions} from "@/lib/actions/companion.actions";
-import {getSubjectColor} from "@/lib/utils";
+import Hero from "@/components/landing/Hero";
+import Courses from "@/components/landing/Courses";
+import Mentors from "@/components/landing/Mentors";
+import Footer from "@/components/landing/Footer";
+import Demo from "@/components/landing/Demo";
 
-const Page = async () => {
-    const companions = await getAllCompanions({ limit: 3 });
-    const recentSessionsCompanions = await getRecentSessions(10);
-
+const Page = () => {
   return (
     <main>
-      <h1>Popular Companions</h1>
-
-        <section className="home-section">
-            {companions.map((companion) => (
-                <CompanionCard
-                    key={companion.id}
-                    {...companion}
-                    color={getSubjectColor(companion.subject)}
-                />
-            ))}
-
-        </section>
-
-        <section className="home-section">
-            <CompanionsList
-                title="Recently completed sessions"
-                companions={recentSessionsCompanions}
-                classNames="w-2/3 max-lg:w-full"
-            />
-            <CTA />
-        </section>
+      <Hero />
+      <Courses />
+      <Demo />
+      <Mentors />
+      <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;
+
