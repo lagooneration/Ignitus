@@ -22,7 +22,7 @@ const Hero = () => {  return (
                         width={62}
                         height={64}
                     />
-                    Ignitus
+                    ROIi
                 </div>
             </Link>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-pink-800 dark:text-pink-300">

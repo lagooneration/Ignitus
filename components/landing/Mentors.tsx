@@ -9,31 +9,31 @@ import { Button } from '@/components/ui/button';
 const mentors = [
   {
     id: '1',
-    name: 'Anchal Sharma',
+    name: 'Jaden Williams',
     role: 'Fulbright Scholar, MIT',
     expertise: ['Design Thinking', 'Assistive Technology', 'Impact Measurement'],
-    imgUrl: '/images/anc.png'
+    imgUrl: '/images/d.jpg'
   },
   {
     id: '2',
-    name: 'Mihir Jain',
+    name: 'Sareen Clark',
     role: 'Masters in CS, UC San Diego',
     expertise: ['Computer Science', 'Bioinfomatics', 'Machine Learning'],
-    imgUrl: '/images/mih.png'
+    imgUrl: '/images/b.jpg'
   },
   {
     id: '3',
-    name: 'Simar Kaur',
+    name: 'Debi Delgado',
     role: 'PHD in Chemical Engg, MIT',
     expertise: ['Chemical Engg', 'Research Methods', 'Innovation Strategy'],
-    imgUrl: '/images/sim.png'
+    imgUrl: '/images/c.jpg'
   },
   {
     id: '4',
-    name: 'Swathi Agarwal',
+    name: 'Smith Johnson',
     role: 'Research Officer, AIIMS',
     expertise: ['Medical Officer', 'Research Innovation', 'Technology Policy'],
-    imgUrl: '/images/swa.png'
+    imgUrl: '/images/a.jpg'
   }
 ];
 

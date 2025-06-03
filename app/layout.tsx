@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ignitus",
-  description: "Research and Innovation Incubator",
+  title: "ROI",
+  description: "Research Oriented Incubator",
 };
 
 export default function RootLayout({
