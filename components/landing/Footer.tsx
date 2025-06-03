@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-200 dark:border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Ignitus. All rights reserved.
+              © {currentYear} ROIi. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-sm text-gray-600 dark:text-gray-400 hover:text-purple-400 dark:hover:text-purple-300 transition-colors">Privacy Policy</a>

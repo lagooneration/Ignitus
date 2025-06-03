@@ -1,10 +1,10 @@
-# Ignitus - Research and Innovation Incubator
+# ROIi - Research Oriented Innovation Incubator
 
-Ignitus is a platform dedicated to empowering youth to become industry leaders by providing opportunities to solve social and inclusive problems through research and innovation.
+ROIi is a platform dedicated to empowering youth to become industry leaders by providing opportunities to solve social and inclusive problems through research and innovation.
 
 ## About
 
-Ignitus aims to bridge the gap between academic learning and real-world impact. We provide a collaborative environment where young minds can:
+ROIi aims to bridge the gap between academic learning and real-world impact. We provide a collaborative environment where young minds can:
 
 * **Engage in meaningful research:** Work on projects that address pressing social and inclusive challenges.
 * **Develop innovative solutions:** Apply their skills and creativity to build practical and impactful solutions.
@@ -21,16 +21,16 @@ Ignitus aims to bridge the gap between academic learning and real-world impact. 
 
 ## Getting Started
 
-To get started with Ignitus, follow these steps:
+To get started with ROIi, follow these steps:
 
-1. **Sign up:** Create an account on the Ignitus platform.
+1. **Sign up:** Create an account on the ROIi platform.
 2. **Explore projects:** Browse the project marketplace and find projects that interest you.
 3. **Join a project:** Apply to join a project and start collaborating with a team.
 4. **Engage with the community:** Participate in discussions, share your progress, and learn from others.
 
 ## Contributing
 
-We welcome contributions from the community! If you're interested in contributing to Ignitus, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
+We welcome contributions from the community! If you're interested in contributing to ROIi, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
 
 
 ## Acknowledgements
@@ -40,7 +40,7 @@ This project was inspired by and adapted from the SaaS application template crea
 
 ## Support
 
-If you have any questions or need assistance, please reach out to our support team at [support@ignitus.org](mailto:support@ignitus.org).
+If you have any questions or need assistance, please reach out to our support team at [support@roii.org](mailto:support@roii.org).
 
 ## License
 
